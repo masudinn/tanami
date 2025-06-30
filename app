@@ -11,3 +11,9 @@ from xgboost import XGBClassifier
 from sklearn.metrics import classification_report, accuracy_score, plot_confusion_matrix
 from sklearn.model_selection import GridSearchCV
 import pickle
+
+
+---------------------------------------------------------------------------------------------------------------------
+
+dataset_url= 'https://www.kaggle.com/siddharthss/crop-recommendation-dataset'
+od.download('https://www.kaggle.com/siddharthss/crop-recommendation-dataset')
